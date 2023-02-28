@@ -15,3 +15,7 @@
 ## 实现思路
 
 就如同 unity 的优化指南所述，我们可以构建一个通用粒子对象池，新增一个类用来存储原始 particle system 的数据，需要的时候把数据应用起来即可。
+
+## 优化效果
+
+65.7M(particle system) -> 16.7M(custom class) + 10.7M(particle system)

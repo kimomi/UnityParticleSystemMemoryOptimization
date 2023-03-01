@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using static UnityEngine.ParticleSystem;
 
-// 这个类可以就是 unity 文档中说的记录 particle system 数据的类
+// 这个类就是 unity 文档中说的记录 particle system 数据的类
 // 至于怎么添加这个类到项目中
 //      1、离线使用：需要考虑如何方便美术编辑，比如美术编辑打开关闭预制体需要支持自动修改和保存
-//      2、运行时使用：需要考虑如何在加载时，把对象池初始模板里面的 particle system 替换为此组件，需要注意编排时对 particle system 的引用应该会失效
+//      2、运行时使用：需要考虑如何在加载时，把对象池初始模板里面的 particle system 替换为此组件，需要注意编排时对 particle system 的引用会失效
 // 对于不同的项目需要结合项目的加载逻辑、制作流程、开发阶段做适配
 public class ParticleSystemDummy : MonoBehaviour
 {
